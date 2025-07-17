@@ -322,7 +322,7 @@ function App() {
         animateButton(buttonKey);
       }}
       className={`
-        ${size === 'small' ? 'h-12 text-base' : 'h-14 text-lg'} 
+        ${size === 'small' ? 'h-12 text-sm' : 'h-14 text-base'} 
         rounded-xl font-semibold transition-all duration-150 
         active:scale-95 hover:shadow-lg transform
         ${isAnimating === buttonKey ? 'scale-95 shadow-inner' : ''}
